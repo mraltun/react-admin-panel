@@ -20,6 +20,7 @@ const Sidebar = () => {
         <span className='logo'>MrAltun Admin</span>
       </div>
       <hr />
+
       <div className='center'>
         <ul>
           <p className='title'>MAIN</p>
@@ -77,7 +78,11 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className='bottom'>color options</div>
+
+      <div className='bottom'>
+        <div className='colorOption'></div>
+        <div className='colorOption'></div>
+      </div>
     </div>
   );
 };
