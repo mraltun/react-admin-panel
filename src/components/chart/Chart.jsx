@@ -2,7 +2,7 @@ import React from "react";
 import "./Chart.scss";
 
 const Chart = () => {
-  return <div>Chart</div>;
+  return <div className='charts'>Chart</div>;
 };
 
 export default Chart;
